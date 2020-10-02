@@ -8,15 +8,30 @@
     "modeltacceleratorservices",
     "electronicsstore",
     "yacceleratorfulfilmentprocess",
-    "azurecloudhotfolder",
     "ycommercewebservices",
     "cmswebservices",
-    "permissionswebservices"
-        
+    "permissionswebservices",
+    "smartedit",
+    "cmssmartedit",
+    "smarteditwebservices",
+    "cmssmarteditwebservices",
+    "oauth2",
+    "permissionswebservices",
+    "previewwebservices",
+    "mediaweb",
+    "personalizationsmartedit",
+    "personalizationpromotionssmartedit",
+    "personalizationwebservices",
+    "personalizationsearchsmartedit"
    ],
     "storefrontAddons": [
         {
             "addon": "smarteditaddon",
+            "storefront": "yacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "personalizationaddon",
             "storefront": "yacceleratorstorefront",
             "template": "yacceleratorstorefront"
         }
