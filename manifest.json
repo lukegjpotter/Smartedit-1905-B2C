@@ -22,7 +22,9 @@
     "personalizationsmartedit",
     "personalizationpromotionssmartedit",
     "personalizationwebservices",
-    "personalizationsearchsmartedit"
+    "personalizationsearchsmartedit",
+    "smarteditaddon"
+
    ],
     "storefrontAddons": [
         {
