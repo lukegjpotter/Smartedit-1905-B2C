@@ -7,6 +7,7 @@
     "platformbackoffice",
     "modeltacceleratorservices",
     "electronicsstore",
+    "apparelstore",
     "yacceleratorfulfilmentprocess",
     "ycommercewebservices",
     "cmswebservices",
@@ -24,8 +25,8 @@
     "personalizationwebservices",
     "personalizationsearchsmartedit",
     "smarteditaddon",
-    "personalizationaddon"
-
+    "personalizationaddon",
+    "multicountrysampledataaddon"
    ],
     "storefrontAddons": [
         {
@@ -37,12 +38,21 @@
             "addon": "personalizationaddon",
             "storefront": "yacceleratorstorefront",
             "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "multicountrysampledataaddon",
+            "storefront": "yacceleratorstorefront",
+            "template": "yacceleratorstorefront"
         }
   ],
    "properties": [
         {
             "key": "yacceleratorstorefront.webroot",
             "value": "/yacceleratorstorefront"
+        },
+        {
+            "key": "multicountrysampledataaddon.import.active",
+            "value": "false"
         }
     ],  
    "aspects": [
@@ -84,9 +94,13 @@
                     "value": "/yacceleratorstorefront"
                 },
                 {
+                    "key":"xss.filter.header.X-Frame-Options",
+                    "value":""
+                },
+                {
                     "key":"storefrontContextRoot",
                     "value":""
-                } 
+                }
             ],
             "webapps": [
                 {
@@ -129,14 +143,10 @@
       {
             "name": "api",
             "properties": [
-                    {
-                        "key":"xss.filter.header.X-Frame-Options",
-                        "value":""
-                    },
-                    {
-                     "key":"storefrontContextRoot",
-                     "value":""
-                     }
+                {
+                    "key":"storefrontContextRoot",
+                    "value":""
+                }
             ],
             "webapps": [
                 {
