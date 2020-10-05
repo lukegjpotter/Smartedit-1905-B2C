@@ -20,13 +20,28 @@
     "permissionswebservices",
     "previewwebservices",
     "mediaweb",
+    "smarteditaddon",
+    "personalizationaddon",
     "personalizationsmartedit",
     "personalizationpromotionssmartedit",
     "personalizationwebservices",
     "personalizationsearchsmartedit",
-    "smarteditaddon",
-    "personalizationaddon",
-    "multicountrysampledataaddon"
+    "previewpersonalizationweb",
+    "personalizationcmsweb",
+    "personalizationsampledataaddon",
+    "personalizationpromotionssampledataaddon",
+    "personalizationpromotions",
+    "personalizationpromotionsweb",
+    "personalizationservicesbackoffice",
+    "personalizationpromotionsbackoffice",
+    "personalizationcmsbackoffice",
+    "personalizationsearchbackoffice",
+    "personalizationsearchweb",
+    "personalizationsearchsamplesaddon",
+    "personalizationyprofilesampledataaddon",
+    "personalizationintegrationbackoffice",
+    "multicountrysampledataaddon",
+    "personalizationyprofile"
    ],
     "storefrontAddons": [
         {
@@ -36,6 +51,26 @@
         },
         {
             "addon": "personalizationaddon",
+            "storefront": "yacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "personalizationsampledataaddon",
+            "storefront": "yacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "personalizationpromotionssampledataaddon",
+            "storefront": "yacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "personalizationsearchsamplesaddon",
+            "storefront": "yacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "personalizationyprofilesampledataaddon",
             "storefront": "yacceleratorstorefront",
             "template": "yacceleratorstorefront"
         },
@@ -167,7 +202,7 @@
                 },
                 {
                     "name": "yacceleratorstorefront",
-                    "contextPath": "/storefront"
+                    "contextPath": "/yacceleratorstorefront"
                 },
                 {
                  "name": "smartedit",
