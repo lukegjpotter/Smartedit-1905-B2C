@@ -135,6 +135,38 @@
                 {
                     "key":"storefrontContextRoot",
                     "value":""
+                },
+                {
+                    "key": "website.electronics.http",
+                    "value": "http://electronics.csemea-csemeaprod-d4-public.model-t.cc.commerce.ondemand.com"
+                },
+                {
+                    "key": "website.electronics.https",
+                    "value": "https://electronics.csemea-csemeaprod-d4-public.model-t.cc.commerce.ondemand.com"
+                },
+                {
+                    "key": "website.apparel-uk.http",
+                    "value": "http://apparel-uk.csemea-csemeaprod-d4-public.model-t.cc.commerce.ondemand.com"
+                },
+                {
+                    "key": "website.apparel-uk.https",
+                    "value": "https://apparel-uk.csemea-csemeaprod-d4-public.model-t.cc.commerce.ondemand.com"
+                },
+                {
+                    "key": "website.apparel-de.http",
+                    "value": "http://apparel-de.csemea-csemeaprod-d4-public.model-t.cc.commerce.ondemand.com"
+                },
+                {
+                    "key": "website.apparel-de.https",
+                    "value": "https://apparel-de.csemea-csemeaprod-d4-public.model-t.cc.commerce.ondemand.com"
+                },
+                {
+                    "key": "website.powertools.http",
+                    "value": "http://powertools.csemea-csemeaprod-d4-public.model-t.cc.commerce.ondemand.com"
+                },
+                {
+                    "key": "website.powertools.https",
+                    "value": "https://powertools.csemea-csemeaprod-d4-public.model-t.cc.commerce.ondemand.com"
                 }
             ],
             "webapps": [
@@ -181,6 +213,38 @@
                 {
                     "key":"storefrontContextRoot",
                     "value":""
+                },
+                {
+                    "key": "website.electronics.http",
+                    "value": "http://electronics.csemea-csemeaprod-d4-public.model-t.cc.commerce.ondemand.com"
+                },
+                {
+                    "key": "website.electronics.https",
+                    "value": "https://electronics.csemea-csemeaprod-d4-public.model-t.cc.commerce.ondemand.com"
+                },
+                {
+                    "key": "website.apparel-uk.http",
+                    "value": "http://apparel-uk.csemea-csemeaprod-d4-public.model-t.cc.commerce.ondemand.com"
+                },
+                {
+                    "key": "website.apparel-uk.https",
+                    "value": "https://apparel-uk.csemea-csemeaprod-d4-public.model-t.cc.commerce.ondemand.com"
+                },
+                {
+                    "key": "website.apparel-de.http",
+                    "value": "http://apparel-de.csemea-csemeaprod-d4-public.model-t.cc.commerce.ondemand.com"
+                },
+                {
+                    "key": "website.apparel-de.https",
+                    "value": "https://apparel-de.csemea-csemeaprod-d4-public.model-t.cc.commerce.ondemand.com"
+                },
+                {
+                    "key": "website.powertools.http",
+                    "value": "http://powertools.csemea-csemeaprod-d4-public.model-t.cc.commerce.ondemand.com"
+                },
+                {
+                    "key": "website.powertools.https",
+                    "value": "https://powertools.csemea-csemeaprod-d4-public.model-t.cc.commerce.ondemand.com"
                 }
             ],
             "webapps": [
